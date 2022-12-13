@@ -1,0 +1,143 @@
+/*police*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+
+/*indexgeneral*/
+
+body {
+    background-color:#C1F3FFFF;
+    cursor:url(https://cursors4.totallyfreecursors.com/thumbnails/1pointer81.gif), pointer;
+    margin:0;
+}
+
+header {
+    
+    margin-top:60px;
+}
+
+h2 {
+    color:#f6faff;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 2px;
+    padding-left:20px;
+    font-size:30px;
+    text-transform:uppercase;
+    
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    padding:10px;
+    font-size:60px;
+    color:#3D7DBA;
+    text-align:center;
+}
+
+/*navigation*/
+
+nav {
+    width:100%;
+    position:fixed;
+    top:0;
+    background:rgb(36, 62, 139);
+    margin:0px 0px 5px 0px;    
+}
+
+nav ul {
+    width:100%;
+    display:flex; 
+    justify-content: flex-end;       
+    margin:10px 0px 10px 0px;
+    padding:0;
+}
+
+nav li {
+    
+    
+    list-style-type: none;
+    
+}
+
+li a {
+    text-decoration: none;
+    display:inline-block;
+    display:flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;    
+    background-color: rgb(98, 48, 121);
+    color:white;    
+    padding:5px 10px 5px 10px;
+    margin:0px 5px 0px 5px;
+    
+}
+
+li:hover, li:hover a {
+    
+    background-color: black;
+    color:yellow;    
+    cursor:url(https://cursors4.totallyfreecursors.com/thumbnails/1pointer81.gif), pointer;
+}
+
+
+
+/*formulaire*/
+
+.form1 {
+    
+    width:96%;
+    padding:2%; 
+}
+
+/*image*/
+
+section {
+    background-color:royalblue;
+    margin:10px;
+    
+}
+
+.container {
+    display:flex;    
+    justify-content: center;
+    flex-wrap:wrap;
+    width:100%; 
+      
+    margin:auto;
+    
+    
+}
+
+
+.container img{
+    object-fit:cover;    
+    width:100%;
+    height:400px;          
+    
+}
+
+figure{
+    width:200px;
+    text-align:center;
+    background:rgb(98, 48, 121);
+    padding:5px;
+    
+    
+}
+
+figcaption{
+    height:40px;
+    overflow:auto;
+    color:white;
+}
+
+
+/*footer*/
+
+footer p{
+    height:40px;
+    position:fixed;
+    width:100%;
+    background:black;
+}
+
+
+
